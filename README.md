@@ -1,37 +1,37 @@
-## Speech Datasets Collection
+# Speech Datasets Collection
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/revospeech/speech-datasets-collection/issues) [![HitCount](https://hits.dwyl.com/revospeech/speech-datasets-collection.svg?style=flat-square)](http://hits.dwyl.com/revospeech/speech-datasets-collection)
 
 This is a curated list of open speech datasets for speech-related research (mainly for Automatic Speech Recognition).
 
 Over **100** speech datasets are collected in this repository, and over **70** datasets can be downloaded directly without further application of registration.
 
-**!Notice!:** this repository does not offer corresponding License of each dataset. Basically it's OK to use these datasets for research purpose only. Please make sure the License is suitable before using for commercial purpose.
+**Notice:**
+1. This repository does not show corresponding License of each dataset. Basically it's OK to use these datasets for research purpose only. Please make sure the License is suitable before using for commercial purpose.
+2. Some small-scale speech corpora are not collected here for concision.
 
-### Data Overview
+### 1. Data Overview
 
-| **dataset acquisition** | **sup/unsup** | **All languages (hours)** | **Mandarin (hours)** | **English (hours)** |
-| --- | --- | --- | --- | --- |
-| download directly | supervised | 190k + | 2110+  | 34k + |
-|  | unsupervised | 515k + | 1360 + | 68k + |
-|  | total | 705k + | 3470 + | 102k + |
+| **Dataset Acquisition** | **Sup/Unsup** | **All Languages (Hours)** | **Mandarin (Hours)** | **English (Hours)** |
+| :---: | :---: |:---: | :---: | :---: |
+| download directly | supervised | 190k + | 2110 +  | 34k + |
+| download directly | unsupervised | 515k + | 1360 + | 68k + |
+| download directly | total | 705k + | 3470 + | 102k + |
 | need application | supervised | 52k + | 16740 + | 50k + |
-|  | unsupervised | 60k + | 12400 + | 57k + |
-|  | total | 112k + | 29140 + | 107k + |
+| need application | unsupervised | 60k + | 12400 + | 57k + |
+| need application | total | 112k + | 29140 + | 107k + |
 | total | supervised | 242k + | 18850 + | 84k + |
-|  | unsupervised | 575k + | 13760 + | 125k + |
-|  | total | 817k + | 32610 + | 209k + |
+| total | unsupervised | 575k + | 13760 + | 125k + |
+| total | total | 817k + | 32610 + | 209k + |
 
 - **Mandarin** here includes Mandarin-English CS corpora.
+- **Sup** means supervised speech corpus with high-quality transcription.
+- **Unsup** means unsupervised or weakly-supervised speech corpus.
 
 
-### References
+### 2. List of ASR corpora
 
-- [https://github.com/coqui-ai/open-speech-corpora](https://github.com/coqui-ai/open-speech-corpora)
-- [https://openslr.org/resources.php](https://openslr.org/resources.php)
-
-
-### List of ASR corpora
-| **index** | **Name** | **Language** | **Type** | **Paper Link** | **Data Link** | **Direct Download** | **Size (Hours)** |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Index** | **Name** | **Language** | **Type/Domain** | **Paper Link** | **Data Link** | **Direct Download (Y/N)** | **Size (Hours)** |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---:| :---: |
 | 1 | Librispeech | English | Read | [[paper]](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf) | [[dataset]](https://www.openslr.org/12/) | Y | 960 |
 | 2 | TED_LIUM v1 | English | Talk | [[paper]](http://www.lrec-conf.org/proceedings/lrec2012/pdf/698_Paper.pdf) | [[dataset]](https://www.openslr.org/19/) | Y | 118 |
 | 3 | TED_LIUM v2 | English | Talk | [[paper]](http://www.lrec-conf.org/proceedings/lrec2014/pdf/1104_Paper.pdf) | [[dataset]](https://www.openslr.org/19) | Y | 207 |
@@ -41,7 +41,7 @@ Over **100** speech datasets are collected in this repository, and over **70** d
 | 7 | ST-CMDS | Mandarin | Record | - | [[dataset]](https://www.openslr.org/38/) | Y | 100 |
 | 8 | aishell | Mandarin | Record | [[paper]](https://arxiv.org/pdf/1709.05522.pdf) | [[dataset]](https://www.openslr.org/33/) | Y | 178 |
 | 9 | aishell-3 | Mandarin | Record | [[paper]](https://arxiv.org/pdf/2010.11567.pdf) | [[dataset]](http://www.openslr.org/93/) | Y | 85 |
-| 10 | aishell-4 | Mandarin | Conference | [[paper]](https://arxiv.org/pdf/2104.03603.pdf) | [[dataset]](http://www.openslr.org/111/) | Y | 120 |
+| 10 | aishell-4 | Mandarin | Meeting | [[paper]](https://arxiv.org/pdf/2104.03603.pdf) | [[dataset]](http://www.openslr.org/111/) | Y | 120 |
 | 11 | aishell-eval | Mandarin | Misc | - | [[dataset]](https://www.aishelltech.com/aishell_eval) | Y | 80 + |
 | 12 | Primewords | Mandarin | Record | - | [[dataset]](https://www.openslr.org/47/) | Y | 100 |
 | 13 | aidatatang_200zh | Mandarin | Record | - | [[dataset]](https://www.openslr.org/62/) | Y | 200 |
@@ -138,3 +138,8 @@ Over **100** speech datasets are collected in this repository, and over **70** d
 | 104 | SDS-200 | Swiss German | Dialects | [[paper]](https://arxiv.org/pdf/2205.09501.pdf) | [[dataset]](https://swissnlp.org/datasets/) | N (Apply) | 200 |
 | 105 | Modality Corpus | Misc | Audio-Visual | [[paper]](https://link.springer.com/content/pdf/10.1007/s10844-016-0438-z.pdf) | [[dataset]](http://www.modality-corpus.org/) | N (Apply) | 30 + |
 
+
+### 3. References
+
+- [https://github.com/coqui-ai/open-speech-corpora](https://github.com/coqui-ai/open-speech-corpora)
+- [https://openslr.org/resources.php](https://openslr.org/resources.php)

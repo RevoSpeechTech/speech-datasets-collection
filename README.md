@@ -3,11 +3,11 @@
 
 This is a curated list of open speech datasets for speech-related research (mainly for Automatic Speech Recognition).
 
-Over **100** speech datasets are collected in this repository, and over **70** datasets can be downloaded directly without further application of registration.
+Over **100** speech datasets are collected in this repository, and over **70** datasets can be downloaded directly without further application or registration.
 
 **Notice:**
 1. This repository does not show corresponding License of each dataset. Basically it's OK to use these datasets for research purpose only. Please make sure the License is suitable before using for commercial purpose.
-2. Some small-scale speech corpora are not collected here for concision.
+2. Some small-scale speech corpora are not shown here for concision.
 
 ---
 
@@ -44,21 +44,21 @@ Over **100** speech datasets are collected in this repository, and over **70** d
 | 8 | aishell | Mandarin | Record | [[paper]](https://arxiv.org/pdf/1709.05522.pdf) | [[dataset]](https://www.openslr.org/33/) | Y | 178 |
 | 9 | aishell-3 | Mandarin | Record | [[paper]](https://arxiv.org/pdf/2010.11567.pdf) | [[dataset]](http://www.openslr.org/93/) | Y | 85 |
 | 10 | aishell-4 | Mandarin | Meeting | [[paper]](https://arxiv.org/pdf/2104.03603.pdf) | [[dataset]](http://www.openslr.org/111/) | Y | 120 |
-| 11 | aishell-eval | Mandarin | Misc | - | [[dataset]](https://www.aishelltech.com/aishell_eval) | Y | 80 + |
+| 11 | aishell-eval | Mandarin | Misc | - | [[dataset]](https://aishelltech.com/aishell_2018_eval) | Y | 80 + |
 | 12 | Primewords | Mandarin | Record | - | [[dataset]](https://www.openslr.org/47/) | Y | 100 |
 | 13 | aidatatang_200zh | Mandarin | Record | - | [[dataset]](https://www.openslr.org/62/) | Y | 200 |
 | 14 | MagicData | Mandarin | Record | - | [[dataset]](https://www.openslr.org/68/) | Y | 755 |
-| 15 | MagicData-RAMC | Mandarin | Record | [[paper]](https://arxiv.org/pdf/2203.16844.pdf) | [[dataset]](https://arxiv.org/pdf/2203.16844.pdf) | Y | 180 |
+| 15 | MagicData-RAMC | Mandarin | Record | [[paper]](https://arxiv.org/pdf/2203.16844.pdf) | [[dataset]](https://openslr.org/123/) | Y | 180 |
 | 16 | Heavy Accent Corpus | Mandarin | Conversational | - | [[dataset]](https://magichub.com/datasets/mandarin-heavy-accent-conversational-speech-corpus/) | Y | 58 + |
 | 17 | AliMeeting | Mandarin | Meeting | [[paper]](https://arxiv.org/pdf/2202.03647.pdf) | [[dataset]](https://www.openslr.org/119/) | Y | 120 |
 | 18 | CN-Celeb | Mandarin | Misc | [[paper]](http://cnceleb.org/static/CN-Celeb_A_Challenging_Chinese_Speaker_Recognition_Dataset.pdf) | [[dataset]](https://www.openslr.org/82/) | Y | unsup(274) |
 | 19 | CN-Celeb2 | Mandarin | Misc | [[paper]](http://aishell-cnsrc.oss-cn-hangzhou.aliyuncs.com/CN-Celeb_Multi-Genre_Speaker_Recognition.pdf) | [[dataset]](https://www.openslr.org/82/) | Y | unsup(1090) |
 | 20 | The People's Speech | English | Misc | [[paper]](https://arxiv.org/pdf/2111.09344.pdf) | [[dataset]](https://mlcommons.org/en/peoples-speech/) | Y | 30000 |
 | 21 | Multilingual TEDx | Multilingual | Talk | [[paper]](https://arxiv.org/pdf/2102.01757.pdf) | [[dataset]](http://www.openslr.org/100) | Y | 760 + |
-| 22 | VoxPopuli | Multilingual | Meeting | [[paper]](https://arxiv.org/pdf/2101.00390.pdf) | [[dataset]](https://github.com/facebookresearch/voxpopuli) | Y | sup(17.3k)+unsup(384k)=400k + |
+| 22 | VoxPopuli | Multilingual | Meeting | [[paper]](https://arxiv.org/pdf/2101.00390.pdf) | [[dataset]](https://github.com/facebookresearch/voxpopuli) | Y | sup(1.8k)+unsup(400k)=400k + |
 | 23 | Libri-Light | English | Read | [[paper]](https://arxiv.org/pdf/1912.07875.pdf) | [[dataset]](https://github.com/facebookresearch/libri-light/tree/main/data_preparation) | Y | unsup(60k) |
-| 24 | Common Voice | Multilingual | Record | [[paper]](https://arxiv.org/pdf/1912.06670.pdf) | [[dataset]](https://commonvoice.mozilla.org/) | Y | v9.0: sup(15k)+unsup(5k)=20k |
-| 25 | Common Voice | English | Record | [[paper]](https://arxiv.org/pdf/1912.06670.pdf) | [[dataset]](https://commonvoice.mozilla.org/en/datasets) | Y | v9.0: sup(2200)+unsup(700)=2900+ |
+| 24 | Common Voice (Multilingual) | Multilingual | Record | [[paper]](https://arxiv.org/pdf/1912.06670.pdf) | [[dataset]](https://commonvoice.mozilla.org/) | Y | v9.0: sup(15k)+unsup(5k)=20k |
+| 25 | Common Voice (English)| English | Record | [[paper]](https://arxiv.org/pdf/1912.06670.pdf) | [[dataset]](https://commonvoice.mozilla.org/en/datasets) | Y | v9.0: sup(2200)+unsup(700)=2900+ |
 | 26 | JTubeSpeech | Japanese | Misc | [[paper]](https://arxiv.org/pdf/2112.09323.pdf) | [[dataset]](https://github.com/sarulab-speech/jtubespeech) | Y | 1300 |
 | 27 | ai4bharat NPTEL2020 | English(Indian) | Lecture | - | [[dataset]](https://github.com/AI4Bharat/NPTEL2020-Indian-English-Speech-Dataset) | Y | weaksup(15.7k) |
 | 28 | open_stt | Russian | Misc | - | [[dataset]](https://github.com/snakers4/open_stt) | Y | 20k + |
@@ -120,9 +120,9 @@ Over **100** speech datasets are collected in this repository, and over **70** d
 | 84 | Fearless Steps | English | Misc | - | [[dataset]](https://fearless-steps.github.io/ChallengePhase3/#19k_Corpus_Access) | N (Apply) | unsup(19k) |
 | 85 | FTSpeech | Danish | Meeting | [[paper]](https://arxiv.org/pdf/2005.12368.pdf) | [[dataset]](https://ftspeech.github.io/) | N (Apply) | 1800 + |
 | 86 | KeSpeech | Mandarin | Record | [[paper]](https://openreview.net/pdf?id=b3Zoeq2sCLq) | [[dataset]](https://github.com/KeSpeech/KeSpeech) | N (Apply) | 1542 |
-| 87 | KsponSpeech | Korean | Dialogue | [[paper]](https://www.mdpi.com/2076-3417/10/19/6936) | [[dataset]](https://aihub.or.kr/aidata/105/download) | N (Apply) | 969 |
+| 87 | KsponSpeech | Korean | Dialogue | [[paper]](https://www.mdpi.com/2076-3417/10/19/6936) | [[dataset]](https://huggingface.co/datasets/cheulyop/ksponspeech) | N (Apply) | 969 |
 | 88 | RVTE database | Spanish | TV show | [[paper]](https://catedrartve.unizar.es/reto2022/RTVE2022DB.pdf) | [[dataset]](https://catedrartve.unizar.es/rtvedatabase.html) | N (Apply) | 800 + |
-| 89 | DiDiSpeech | Mandarin | Record | [[paper]](https://arxiv.org/pdf/2010.09275.pdf) | [[dataset]](https://outreach.didichuxing.com/research/opendata/) | N (Apply) | 800 |
+| 89 | DiDiSpeech | Mandarin | Record | [[paper]](https://arxiv.org/pdf/2010.09275.pdf) | [[dataset]](https://github.com/athena-team/DiDiSpeech) | N (Apply) | 800 |
 | 90 | Babel | Multilingual | Telephone | [[paper]](https://eprints.whiterose.ac.uk/152840/8/Gales%20et%20al%202014.pdf) | [[dataset]](https://www.nist.gov/itl/iad/mig/openkws16-evaluation) | N (Apply) | 1000 + |
 | 91 | National Speech Corpus | English (Singapore) | Misc | [[paper]](https://www.isca-speech.org/archive_v0/Interspeech_2019/pdfs/1525.pdf) | [[dataset]](https://www.imda.gov.sg/programme-listing/digital-services-lab/national-speech-corpus) | N (Apply) | 3000 + |
 | 92 | MyST Children's Speech | English | Record | - | [[dataset]](http://boulderlearning.com/request-the-myst-corpus/) | N (Apply) | 393 |

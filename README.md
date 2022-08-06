@@ -1,5 +1,5 @@
 # Speech Datasets Collection
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/revospeech/speech-datasets-collection/issues) [![HitCount](https://hits.dwyl.com/revospeech/speech-datasets-collection.svg?style=flat-square)](http://hits.dwyl.com/revospeech/speech-datasets-collection)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/RevoSpeechTech/speech-datasets-collection/issues) [![HitCount](https://hits.dwyl.com/revospeech/speech-datasets-collection.svg?style=flat-square)](http://hits.dwyl.com/RevoSpeechTech/speech-datasets-collection)
 
 This is a curated list of open speech datasets for speech-related research (mainly for Automatic Speech Recognition).
 
@@ -8,6 +8,8 @@ Over **100** speech datasets are collected in this repository, and over **70** d
 **Notice:**
 1. This repository does not show corresponding License of each dataset. Basically it's OK to use these datasets for research purpose only. Please make sure the License is suitable before using for commercial purpose.
 2. Some small-scale speech corpora are not collected here for concision.
+
+---
 
 ### 1. Data Overview
 
@@ -31,7 +33,7 @@ Over **100** speech datasets are collected in this repository, and over **70** d
 ### 2. List of ASR corpora
 
 | **Index** | **Name** | **Language** | **Type/Domain** | **Paper Link** | **Data Link** | **Direct Download (Y/N)** | **Size (Hours)** |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---:| :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---:| :--- |
 | 1 | Librispeech | English | Read | [[paper]](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf) | [[dataset]](https://www.openslr.org/12/) | Y | 960 |
 | 2 | TED_LIUM v1 | English | Talk | [[paper]](http://www.lrec-conf.org/proceedings/lrec2012/pdf/698_Paper.pdf) | [[dataset]](https://www.openslr.org/19/) | Y | 118 |
 | 3 | TED_LIUM v2 | English | Talk | [[paper]](http://www.lrec-conf.org/proceedings/lrec2014/pdf/1104_Paper.pdf) | [[dataset]](https://www.openslr.org/19) | Y | 207 |

@@ -7,7 +7,7 @@
 
 This is a curated list of open speech datasets for speech-related research (mainly for Automatic Speech Recognition).
 
-Over **100** speech datasets are collected in this repository, and over **70** datasets can be downloaded directly without further application or registration.
+Over **100** speech datasets are collected in this repository, and more than **70** datasets can be downloaded directly without further application or registration.
 
 **Notice:**
 1. This repository does not show corresponding License of each dataset. Basically it's OK to use these datasets for research purpose only. Please make sure the License is suitable before using for commercial purpose.
@@ -36,6 +36,7 @@ Over **100** speech datasets are collected in this repository, and over **70** d
 
 ### 2. List of ASR corpora
 
+#### a. datasets can be downloaded directly
 | **Index** | **Name** | **Language** | **Type/Domain** | **Paper Link** | **Data Link** | **Direct Download (Y/N)** | **Size (Hours)** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---:| :--- |
 | 1 | Librispeech | English | Reading | [[paper]](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf) | [[dataset]](https://www.openslr.org/12/) | Y | 960 |
@@ -109,40 +110,47 @@ Over **100** speech datasets are collected in this repository, and over **70** d
 | 69 | CI-AVSR | Cantonese | Audio-Visual | [[paper]](https://arxiv.org/pdf/2201.03804.pdf) | [[dataset]](https://github.com/HLTCHKUST/CI-AVSR) | Y | 8 + |
 | 70 | Aalto Finnish Parliament | Finnish | Parliament | [[paper]](https://arxiv.org/pdf/2203.14876.pdf) | [[dataset]](https://www.kielipankki.fi/corpora/fi-parliament-asr/) | Y | 3100 + |
 | 71 | UserLibri | English | Reading | [[paper]](https://arxiv.org/pdf/2207.00706.pdf) | [[dataset]](https://www.kaggle.com/datasets/google/userlibri) | Y | - |
-| 72 | Fisher | English | Conversational | [[paper]](http://www.lrec-conf.org/proceedings/lrec2004/pdf/767.pdf) | [[dataset]](https://catalog.ldc.upenn.edu/search) | N (Apply) | 2000 |
-| 73 | WenetSpeech | Mandarin | Misc | [[paper]](https://arxiv.org/pdf/2110.03370.pdf) | [[dataset]](https://www.openslr.org/121) | N (Apply) | sup(10k)+weaksup(2.4k)+unsup(10k)=22.4k |
-| 74 | aishell-2 | Mandarin | Recording | [[paper]](https://arxiv.org/pdf/1808.10583.pdf) | [[dataset]](https://www.aishelltech.com/aishell_2) | N (Apply) | 1000 |
-| 75 | aidatatang_1505zh | Mandarin | Recording | - | [[dataset]](https://www.datatang.com/opensource) | N (Apply) | 1505 |
-| 76 | SLT 2021 CSRC | Mandarin | Misc | [[paper]](https://arxiv.org/pdf/2011.06724.pdf) | [[dataset]](https://www.data-baker.com/csrc_challenge.html) | N (Apply) | 400 |
-| 77 | GigaSpeech | English | Misc | [[paper]](https://arxiv.org/pdf/2106.06909.pdf) | [[dataset]](https://github.com/SpeechColab/GigaSpeech) | N (Apply) | sup(10k)+unsup(23k)=33k |
-| 78 | SPGISpeech | English | Misc | [[paper]](https://arxiv.org/pdf/2104.02014.pdf) | [[dataset]](https://datasets.kensho.com/datasets/spgispeech) | N (Apply) | 5000 |
-| 79 | AESRC 2020 | English (accented) | Misc | [[paper]](https://arxiv.org/pdf/2102.10233.pdf) | [[dataset]](https://www.datatang.com/INTERSPEECH2020) | N (Apply) | 160 |
-| 80 | LaboroTVSpeech | Japanese | Misc | [[paper]](https://arxiv.org/pdf/2103.14736.pdf) | [[dataset]](https://laboro.ai/activity/column/engineer/eg-laboro-tv-corpus-jp/) | N (Apply) | 2000 + |
-| 81 | TAL_CSASR | Mandarin-English CS | Lectures | - | [[dataset]](https://ai.100tal.com/dataset) | N (Apply) | 587 |
-| 82 | ASRU 2019 ASR | Mandarin-English CS | Reading | - | [[dataset]](https://www.datatang.com/competition) | N (Apply) | 700 + |
-| 83 | SEAME | Mandarin-English CS | Recording | [[paper]](https://www.isca-speech.org/archive/pdfs/interspeech_2010/lyu10_interspeech.pdf) | [[dataset]](https://catalog.ldc.upenn.edu/LDC2015S04) | N (Apply) | 196 |
-| 84 | Fearless Steps | English | Misc | - | [[dataset]](https://fearless-steps.github.io/ChallengePhase3/#19k_Corpus_Access) | N (Apply) | unsup(19k) |
-| 85 | FTSpeech | Danish | Meeting | [[paper]](https://arxiv.org/pdf/2005.12368.pdf) | [[dataset]](https://ftspeech.github.io/) | N (Apply) | 1800 + |
-| 86 | KeSpeech | Mandarin | Recording | [[paper]](https://openreview.net/pdf?id=b3Zoeq2sCLq) | [[dataset]](https://github.com/KeSpeech/KeSpeech) | N (Apply) | 1542 |
-| 87 | KsponSpeech | Korean | Conversational | [[paper]](https://www.mdpi.com/2076-3417/10/19/6936) | [[dataset]](https://huggingface.co/datasets/cheulyop/ksponspeech) | N (Apply) | 969 |
-| 88 | RVTE database | Spanish | TV | [[paper]](https://catedrartve.unizar.es/reto2022/RTVE2022DB.pdf) | [[dataset]](https://catedrartve.unizar.es/rtvedatabase.html) | N (Apply) | 800 + |
-| 89 | DiDiSpeech | Mandarin | Recording | [[paper]](https://arxiv.org/pdf/2010.09275.pdf) | [[dataset]](https://github.com/athena-team/DiDiSpeech) | N (Apply) | 800 |
-| 90 | Babel | Multilingual | Telephone | [[paper]](https://eprints.whiterose.ac.uk/152840/8/Gales%20et%20al%202014.pdf) | [[dataset]](https://www.nist.gov/itl/iad/mig/openkws16-evaluation) | N (Apply) | 1000 + |
-| 91 | National Speech Corpus | English (Singapore) | Misc | [[paper]](https://www.isca-speech.org/archive_v0/Interspeech_2019/pdfs/1525.pdf) | [[dataset]](https://www.imda.gov.sg/programme-listing/digital-services-lab/national-speech-corpus) | N (Apply) | 3000 + |
-| 92 | MyST Children's Speech | English | Recording | - | [[dataset]](http://boulderlearning.com/request-the-myst-corpus/) | N (Apply) | 393 |
-| 93 | L2-ARCTIC | L2 English | Recording | [[paper]](https://www.isca-speech.org/archive_v0/Interspeech_2018/pdfs/1110.pdf) | [[dataset]](https://psi.engr.tamu.edu/l2-arctic-corpus/) | N (Apply) | 20 + |
-| 94 | JSpeech | Multilingual | Recording | [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8639658) | [[dataset]](https://github.com/miras-tech/jspeech) | N (Apply) | 1332 + |
-| 95 | LRS2-BBC | English | Audio-Visual | [[paper]](https://arxiv.org/pdf/1809.02108.pdf) | [[dataset]](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) | N (Apply) | 220 + |
-| 96 | LRS3-TED | English | Audio-Visual | [[paper]](https://arxiv.org/pdf/1809.00496.pdf) | [[dataset]](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3.html) | N (Apply) | 470 + |
-| 97 | LRS3-Lang | Multilingual | Audio-Visual | - | [[dataset]](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3-lang.html) | N (Apply) | 1300 + |
-| 98 | QASR | Arabic | Dialects | [[paper]](https://arxiv.org/pdf/2106.13000.pdf) | [[dataset]](https://arabicspeech.org/qasr/) | N (Apply) | 2000 + |
-| 99 | ADI (MGB-5) | Arabic | Dialects | [[paper]](https://swshon.github.io/pdf/ali_asru2019_mgb5.pdf) | [[dataset]](https://arabicspeech.org/mgb5/#adi17) | N (Apply) | unsup (3000 +) |
-| 100 | MGB-2 | Arabic | TV | [[paper]](https://arxiv.org/pdf/1609.05625.pdf) | [[dataset]](http://www.mgb-challenge.org/MGB-2.html) | N (Apply) | 1200 + |
-| 101 | 3MASSIV | Multilingual | Audio-Visual | [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gupta_3MASSIV_Multilingual_Multimodal_and_Multi-Aspect_Dataset_of_Social_Media_Short_CVPR_2022_paper.pdf) | [[dataset]](https://github.com/ShareChatAI/3MASSIV) | N (Apply) | sup(310)+unsup(600) |
-| 102 | MDCC | Cantonese | Misc | [[paper]](https://arxiv.org/pdf/2201.02419.pdf) | [[dataset]](https://github.com/HLTCHKUST/cantonese-asr) | N (Apply) | 73 + |
-| 103 | Lahjoita Puhetta | Finnish | Misc | [[paper]](https://arxiv.org/pdf/2203.12906.pdf) | [[dataset]](https://github.com/aalto-speech/lahjoita-puhetta-resources) | N (Apply) | sup(1600) + unsup(2000) |
-| 104 | SDS-200 | Swiss German | Dialects | [[paper]](https://arxiv.org/pdf/2205.09501.pdf) | [[dataset]](https://swissnlp.org/datasets/) | N (Apply) | 200 |
-| 105 | Modality Corpus | Misc | Audio-Visual | [[paper]](https://link.springer.com/content/pdf/10.1007/s10844-016-0438-z.pdf) | [[dataset]](http://www.modality-corpus.org/) | N (Apply) | 30 + |
+| 72 | Ukrainian Speech | Ukrainian | Misc | - | [[dataset]](https://github.com/egorsmkv/speech-recognition-uk#-datasets) | Y | 1300+ |
+
+
+#### b. datasets can be downloaded after application
+
+| **Index** | **Name** | **Language** | **Type/Domain** | **Paper Link** | **Data Link** | **Direct Download (Y/N)** | **Size (Hours)** |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---:| :--- |
+| 1 | Fisher | English | Conversational | [[paper]](http://www.lrec-conf.org/proceedings/lrec2004/pdf/767.pdf) | [[dataset]](https://catalog.ldc.upenn.edu/search) | N (Apply) | 2000 |
+| 2 | WenetSpeech | Mandarin | Misc | [[paper]](https://arxiv.org/pdf/2110.03370.pdf) | [[dataset]](https://www.openslr.org/121) | N (Apply) | sup(10k)+weaksup(2.4k)+unsup(10k)=22.4k |
+| 3 | aishell-2 | Mandarin | Recording | [[paper]](https://arxiv.org/pdf/1808.10583.pdf) | [[dataset]](https://www.aishelltech.com/aishell_2) | N (Apply) | 1000 |
+| 4 | aidatatang_1505zh | Mandarin | Recording | - | [[dataset]](https://www.datatang.com/opensource) | N (Apply) | 1505 |
+| 5 | SLT 2021 CSRC | Mandarin | Misc | [[paper]](https://arxiv.org/pdf/2011.06724.pdf) | [[dataset]](https://www.data-baker.com/csrc_challenge.html) | N (Apply) | 400 |
+| 6 | GigaSpeech | English | Misc | [[paper]](https://arxiv.org/pdf/2106.06909.pdf) | [[dataset]](https://github.com/SpeechColab/GigaSpeech) | N (Apply) | sup(10k)+unsup(23k)=33k |
+| 7 | SPGISpeech | English | Misc | [[paper]](https://arxiv.org/pdf/2104.02014.pdf) | [[dataset]](https://datasets.kensho.com/datasets/spgispeech) | N (Apply) | 5000 |
+| 8 | AESRC 2020 | English (accented) | Misc | [[paper]](https://arxiv.org/pdf/2102.10233.pdf) | [[dataset]](https://www.datatang.com/INTERSPEECH2020) | N (Apply) | 160 |
+| 9 | LaboroTVSpeech | Japanese | Misc | [[paper]](https://arxiv.org/pdf/2103.14736.pdf) | [[dataset]](https://laboro.ai/activity/column/engineer/eg-laboro-tv-corpus-jp/) | N (Apply) | 2000 + |
+| 10 | TAL_CSASR | Mandarin-English CS | Lectures | - | [[dataset]](https://ai.100tal.com/dataset) | N (Apply) | 587 |
+| 11 | ASRU 2019 ASR | Mandarin-English CS | Reading | - | [[dataset]](https://www.datatang.com/competition) | N (Apply) | 700 + |
+| 12 | SEAME | Mandarin-English CS | Recording | [[paper]](https://www.isca-speech.org/archive/pdfs/interspeech_2010/lyu10_interspeech.pdf) | [[dataset]](https://catalog.ldc.upenn.edu/LDC2015S04) | N (Apply) | 196 |
+| 13 | Fearless Steps | English | Misc | - | [[dataset]](https://fearless-steps.github.io/ChallengePhase3/#19k_Corpus_Access) | N (Apply) | unsup(19k) |
+| 14 | FTSpeech | Danish | Meeting | [[paper]](https://arxiv.org/pdf/2005.12368.pdf) | [[dataset]](https://ftspeech.github.io/) | N (Apply) | 1800 + |
+| 15 | KeSpeech | Mandarin | Recording | [[paper]](https://openreview.net/pdf?id=b3Zoeq2sCLq) | [[dataset]](https://github.com/KeSpeech/KeSpeech) | N (Apply) | 1542 |
+| 16 | KsponSpeech | Korean | Conversational | [[paper]](https://www.mdpi.com/2076-3417/10/19/6936) | [[dataset]](https://huggingface.co/datasets/cheulyop/ksponspeech) | N (Apply) | 969 |
+| 17 | RVTE database | Spanish | TV | [[paper]](https://catedrartve.unizar.es/reto2022/RTVE2022DB.pdf) | [[dataset]](https://catedrartve.unizar.es/rtvedatabase.html) | N (Apply) | 800 + |
+| 18 | DiDiSpeech | Mandarin | Recording | [[paper]](https://arxiv.org/pdf/2010.09275.pdf) | [[dataset]](https://github.com/athena-team/DiDiSpeech) | N (Apply) | 800 |
+| 19 | Babel | Multilingual | Telephone | [[paper]](https://eprints.whiterose.ac.uk/152840/8/Gales%20et%20al%202014.pdf) | [[dataset]](https://www.nist.gov/itl/iad/mig/openkws16-evaluation) | N (Apply) | 1000 + |
+| 20 | National Speech Corpus | English (Singapore) | Misc | [[paper]](https://www.isca-speech.org/archive_v0/Interspeech_2019/pdfs/1525.pdf) | [[dataset]](https://www.imda.gov.sg/programme-listing/digital-services-lab/national-speech-corpus) | N (Apply) | 3000 + |
+| 21 | MyST Children's Speech | English | Recording | - | [[dataset]](http://boulderlearning.com/request-the-myst-corpus/) | N (Apply) | 393 |
+| 22 | L2-ARCTIC | L2 English | Recording | [[paper]](https://www.isca-speech.org/archive_v0/Interspeech_2018/pdfs/1110.pdf) | [[dataset]](https://psi.engr.tamu.edu/l2-arctic-corpus/) | N (Apply) | 20 + |
+| 23 | JSpeech | Multilingual | Recording | [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8639658) | [[dataset]](https://github.com/miras-tech/jspeech) | N (Apply) | 1332 + |
+| 24 | LRS2-BBC | English | Audio-Visual | [[paper]](https://arxiv.org/pdf/1809.02108.pdf) | [[dataset]](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs2.html) | N (Apply) | 220 + |
+| 25 | LRS3-TED | English | Audio-Visual | [[paper]](https://arxiv.org/pdf/1809.00496.pdf) | [[dataset]](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3.html) | N (Apply) | 470 + |
+| 26 | LRS3-Lang | Multilingual | Audio-Visual | - | [[dataset]](https://www.robots.ox.ac.uk/~vgg/data/lip_reading/lrs3-lang.html) | N (Apply) | 1300 + |
+| 27 | QASR | Arabic | Dialects | [[paper]](https://arxiv.org/pdf/2106.13000.pdf) | [[dataset]](https://arabicspeech.org/qasr/) | N (Apply) | 2000 + |
+| 28 | ADI (MGB-5) | Arabic | Dialects | [[paper]](https://swshon.github.io/pdf/ali_asru2019_mgb5.pdf) | [[dataset]](https://arabicspeech.org/mgb5/#adi17) | N (Apply) | unsup (3000 +) |
+| 29 | MGB-2 | Arabic | TV | [[paper]](https://arxiv.org/pdf/1609.05625.pdf) | [[dataset]](http://www.mgb-challenge.org/MGB-2.html) | N (Apply) | 1200 + |
+| 30 | 3MASSIV | Multilingual | Audio-Visual | [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gupta_3MASSIV_Multilingual_Multimodal_and_Multi-Aspect_Dataset_of_Social_Media_Short_CVPR_2022_paper.pdf) | [[dataset]](https://github.com/ShareChatAI/3MASSIV) | N (Apply) | sup(310)+unsup(600) |
+| 31 | MDCC | Cantonese | Misc | [[paper]](https://arxiv.org/pdf/2201.02419.pdf) | [[dataset]](https://github.com/HLTCHKUST/cantonese-asr) | N (Apply) | 73 + |
+| 32 | Lahjoita Puhetta | Finnish | Misc | [[paper]](https://arxiv.org/pdf/2203.12906.pdf) | [[dataset]](https://github.com/aalto-speech/lahjoita-puhetta-resources) | N (Apply) | sup(1600) + unsup(2000) |
+| 33 | SDS-200 | Swiss German | Dialects | [[paper]](https://arxiv.org/pdf/2205.09501.pdf) | [[dataset]](https://swissnlp.org/datasets/) | N (Apply) | 200 |
+| 34 | Modality Corpus | Misc | Audio-Visual | [[paper]](https://link.springer.com/content/pdf/10.1007/s10844-016-0438-z.pdf) | [[dataset]](http://www.modality-corpus.org/) | N (Apply) | 30 + |
 
 
 ### 3. References

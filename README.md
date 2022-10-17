@@ -2,7 +2,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/RevoSpeechTech/speech-datasets-collection/issues) [![HitCount](https://hits.dwyl.com/revospeech/speech-datasets-collection.svg?style=flat-square)](http://hits.dwyl.com/RevoSpeechTech/speech-datasets-collection)
 
 > Contributions for more speech datasets are welcome!
-> You can issue [here](https://github.com/RevoSpeechTech/speech-datasets-collection/issues) with new speech datasets, and the list of datasets in the **main** branch will be updated **weekly** (usually on weekends).
+> You can issue [here](https://github.com/RevoSpeechTech/speech-datasets-collection/issues) with new speech datasets, and the list of datasets in the **main** branch will be updated **Monthly** (usually on weekends).
 
 
 This is a curated list of open speech datasets for speech-related research (mainly for Automatic Speech Recognition).
@@ -19,15 +19,15 @@ Over **100** speech datasets are collected in this repository, and more than **7
 
 | **Dataset Acquisition** | **Sup/Unsup** | **All Languages (Hours)** | **Mandarin (Hours)** | **English (Hours)** |
 | :---: | :---: |:---: | :---: | :---: |
-| download directly | supervised | 190k + | 2110 +  | 34k + |
-| download directly | unsupervised | 515k + | 1360 + | 68k + |
-| download directly | total | 705k + | 3470 + | 102k + |
-| need application | supervised | 52k + | 16740 + | 50k + |
+| download directly | supervised | 199k + | 2110 +  | 34k + |
+| download directly | unsupervised | 530k + | 1360 + | 68k + |
+| download directly | total | 729k + | 3470 + | 102k + |
+| need application | supervised | 53k + | 16740 + | 50k + |
 | need application | unsupervised | 60k + | 12400 + | 57k + |
-| need application | total | 112k + | 29140 + | 107k + |
-| total | supervised | 242k + | 18850 + | 84k + |
-| total | unsupervised | 575k + | 13760 + | 125k + |
-| total | total | 817k + | 32610 + | 209k + |
+| need application | total | 113k + | 29140 + | 107k + |
+| total | supervised | 252k + | 18850 + | 84k + |
+| total | unsupervised | 590k + | 13760 + | 125k + |
+| total | total | 842k + | 32610 + | 209k + |
 
 - **Mandarin** here includes Mandarin-English CS corpora.
 - **Sup** means supervised speech corpus with high-quality transcription.
@@ -111,6 +111,7 @@ Over **100** speech datasets are collected in this repository, and more than **7
 | 70 | Aalto Finnish Parliament | Finnish | Parliament | [[paper]](https://arxiv.org/pdf/2203.14876.pdf) | [[dataset]](https://www.kielipankki.fi/corpora/fi-parliament-asr/) | 3100 + |
 | 71 | UserLibri | English | Reading | [[paper]](https://arxiv.org/pdf/2207.00706.pdf) | [[dataset]](https://www.kaggle.com/datasets/google/userlibri) | - |
 | 72 | Ukrainian Speech | Ukrainian | Misc | - | [[dataset]](https://github.com/egorsmkv/speech-recognition-uk#-datasets) | 1300+ |
+| 73 | UCLA-ASR-corpus | Multilingual | Misc | - | [[dataset]](https://github.com/Open-Speech-EkStep/ULCA-asr-dataset-corpus) | unsup(15k)+sup(9k) |
 
 
 #### b. datasets can be downloaded after application
@@ -150,7 +151,9 @@ Over **100** speech datasets are collected in this repository, and more than **7
 | 31 | MDCC | Cantonese | Misc | [[paper]](https://arxiv.org/pdf/2201.02419.pdf) | [[dataset]](https://github.com/HLTCHKUST/cantonese-asr) | 73 + |
 | 32 | Lahjoita Puhetta | Finnish | Misc | [[paper]](https://arxiv.org/pdf/2203.12906.pdf) | [[dataset]](https://github.com/aalto-speech/lahjoita-puhetta-resources) | sup(1600) + unsup(2000) |
 | 33 | SDS-200 | Swiss German | Dialects | [[paper]](https://arxiv.org/pdf/2205.09501.pdf) | [[dataset]](https://swissnlp.org/datasets/) | 200 |
-| 34 | Modality Corpus | Misc | Audio-Visual | [[paper]](https://link.springer.com/content/pdf/10.1007/s10844-016-0438-z.pdf) | [[dataset]](http://www.modality-corpus.org/) | 30 + |
+| 34 | Modality Corpus | Multilingual | Audio-Visual | [[paper]](https://link.springer.com/content/pdf/10.1007/s10844-016-0438-z.pdf) | [[dataset]](http://www.modality-corpus.org/) | 30 + |
+| 35 | Hindi-Tamil-English | Multilingual | Misc | - | [[dataset]](https://sites.google.com/view/indian-language-asrchallenge/home) | 690 |
+| 36 | English-Vietnamese Corpus | English, Vietnamese | Misc | [[paper]](https://arxiv.org/pdf/2208.04243.pdf) | [[dataset]](https://github.com/VinAIResearch/PhoST) | 500+ |
 
 
 ### 3. References

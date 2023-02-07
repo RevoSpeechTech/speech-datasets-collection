@@ -2,7 +2,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/RevoSpeechTech/speech-datasets-collection/issues) [![HitCount](https://hits.dwyl.com/revospeech/speech-datasets-collection.svg?style=flat-square)](http://hits.dwyl.com/RevoSpeechTech/speech-datasets-collection)
 
 > Contributions for more speech datasets are welcome!
-> You can issue [here](https://github.com/RevoSpeechTech/speech-datasets-collection/issues) with new speech datasets, and the list of datasets in the **main** branch will be updated **Monthly** (usually on weekends).
+> You can issue [here](https://github.com/RevoSpeechTech/speech-datasets-collection/issues) with new speech datasets, and the list of datasets in the **main** branch will be updated **Seasonly**.
 
 
 This is a curated list of open speech datasets for speech-related research (mainly for Automatic Speech Recognition).
@@ -79,8 +79,8 @@ Over **100** speech datasets are collected in this repository, and more than **7
 | 38 | Voxforge | English | Recording | - | [[dataset]](http://www.voxforge.org/home/downloads) | 130 |
 | 39 | Tatoeba | English | Recording | - | [[dataset]](https://downloads.tatoeba.org/audio/) | 200 |
 | 40 | IndicWav2Vec | Multilingual | Misc | [[paper]](https://arxiv.org/pdf/2111.03945.pdf) | [[dataset]](https://github.com/AI4Bharat/IndicWav2Vec/tree/main/data_prep_scripts/pret_scripts) | unsup(17k +) |
-| 41 | VoxCeleb | English | Misc | [[paper]](https://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) | [[dataset]](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html) | unsup(352) |
-| 42 | VoxCeleb2 | English | Misc | [[paper]](https://www.robots.ox.ac.uk/~vgg/publications/2018/Chung18a/chung18a.pdf) | [[dataset]](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox2.html) | unsup(2442) |
+| 41 | VoxCeleb | English | Misc | [[paper]](https://www.robots.ox.ac.uk/~vgg/publications/2017/Nagrani17/nagrani17.pdf) | [[dataset]](https://mm.kaist.ac.kr/datasets/voxceleb) | unsup(352) |
+| 42 | VoxCeleb2 | English | Misc | [[paper]](https://www.robots.ox.ac.uk/~vgg/publications/2018/Chung18a/chung18a.pdf) | [[dataset]](https://mm.kaist.ac.kr/datasets/voxceleb) | unsup(2442) |
 | 43 | RuLibrispeech | Russian | Read | - | [[dataset]](https://www.openslr.org/96/) | 98 |
 | 44 | MediaSpeech | Multilingual | Misc | [[paper]](https://arxiv.org/pdf/2103.16193.pdf) | [[dataset]](https://www.openslr.org/108/) | 40 |
 | 45 | MUCS 2021 task1 | Multilingual | Misc | - | [[dataset]](https://www.openslr.org/103/) | 300 |

@@ -7,7 +7,7 @@
 
 This is a curated list of open speech datasets for speech-related research (mainly for Automatic Speech Recognition).
 
-Over **100** speech datasets are collected in this repository, and more than **70** datasets can be downloaded directly without further application or registration.
+Over **110** speech datasets are collected in this repository, and more than **70** datasets can be downloaded directly without further application or registration.
 
 **Notice:**
 1. This repository does not show corresponding License of each dataset. Basically it's OK to use these datasets for research purpose only. Please make sure the License is suitable before using for commercial purpose.
@@ -112,6 +112,7 @@ Over **100** speech datasets are collected in this repository, and more than **7
 | 71 | UserLibri | English | Reading | [[paper]](https://arxiv.org/pdf/2207.00706.pdf) | [[dataset]](https://www.kaggle.com/datasets/google/userlibri) | - |
 | 72 | Ukrainian Speech | Ukrainian | Misc | - | [[dataset]](https://github.com/egorsmkv/speech-recognition-uk#-datasets) | 1300+ |
 | 73 | UCLA-ASR-corpus | Multilingual | Misc | - | [[dataset]](https://github.com/Open-Speech-EkStep/ULCA-asr-dataset-corpus) | unsup(15k)+sup(9k) |
+| 74 | ReazonSpeech | Japanese | Misc | [[paper]](https://research.reazon.jp/_static/reazonspeech_nlp2023.pdf) [[code]](https://github.com/reazon-research/ReazonSpeech) | [[dataset]](https://huggingface.co/datasets/reazon-research/reazonspeech) | 15k |
 
 
 #### b. datasets can be downloaded after application
@@ -154,6 +155,7 @@ Over **100** speech datasets are collected in this repository, and more than **7
 | 34 | Modality Corpus | Multilingual | Audio-Visual | [[paper]](https://link.springer.com/content/pdf/10.1007/s10844-016-0438-z.pdf) | [[dataset]](http://www.modality-corpus.org/) | 30 + |
 | 35 | Hindi-Tamil-English | Multilingual | Misc | - | [[dataset]](https://sites.google.com/view/indian-language-asrchallenge/home) | 690 |
 | 36 | English-Vietnamese Corpus | English, Vietnamese | Misc | [[paper]](https://arxiv.org/pdf/2208.04243.pdf) | [[dataset]](https://github.com/VinAIResearch/PhoST) | 500+ |
+| 37 | OLKAVS | Korean | Misc | [[paper]](https://arxiv.org/pdf/2301.06375.pdf) [[code]](https://github.com/IIP-Sogang/olkavs-avspeech) | [[dataset]](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=538) | 1150 |
 
 
 ### 3. References

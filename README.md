@@ -37,8 +37,8 @@ Over **110** speech datasets are collected in this repository, and more than **7
 ### 2. List of ASR corpora
 
 #### a. datasets can be downloaded directly
-| **Index** | **Name** | **Language** | **Type/Domain** | **Paper Link** | **Data Link** | **Size (Hours)** |
-| :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **id** | **Name** | **Language** | **Type/Domain** | **Paper Link** | **Data Link** | **Size (Hours)** |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Librispeech | English | Reading | [[paper]](https://www.danielpovey.com/files/2015_icassp_librispeech.pdf) | [[dataset]](https://www.openslr.org/12/) | 960 |
 | 2 | TED_LIUM v1 | English | Talks | [[paper]](http://www.lrec-conf.org/proceedings/lrec2012/pdf/698_Paper.pdf) | [[dataset]](https://www.openslr.org/19/) | 118 |
 | 3 | TED_LIUM v2 | English | Talks | [[paper]](http://www.lrec-conf.org/proceedings/lrec2014/pdf/1104_Paper.pdf) | [[dataset]](https://www.openslr.org/19) | 207 |
@@ -58,12 +58,12 @@ Over **110** speech datasets are collected in this repository, and more than **7
 | 17 | AliMeeting | Mandarin | Meeting | [[paper]](https://arxiv.org/pdf/2202.03647.pdf) | [[dataset]](https://www.openslr.org/119/) | 120 |
 | 18 | CN-Celeb | Mandarin | Misc | [[paper]](http://cnceleb.org/static/CN-Celeb_A_Challenging_Chinese_Speaker_Recognition_Dataset.pdf) | [[dataset]](https://www.openslr.org/82/) | unsup(274) |
 | 19 | CN-Celeb2 | Mandarin | Misc | [[paper]](http://aishell-cnsrc.oss-cn-hangzhou.aliyuncs.com/CN-Celeb_Multi-Genre_Speaker_Recognition.pdf) | [[dataset]](https://www.openslr.org/82/) | unsup(1090) |
-| 20 | The People's Speech | English | Misc | [[paper]](https://arxiv.org/pdf/2111.09344.pdf) | [[dataset]](https://mlcommons.org/en/peoples-speech/) | 30000 |
+| 20 | The People's Speech | English | Misc | [[paper]](https://arxiv.org/pdf/2111.09344.pdf) | [[dataset]](https://mlcommons.org/en/peoples-speech/) | 30k + |
 | 21 | Multilingual TEDx | Multilingual | Talks | [[paper]](https://arxiv.org/pdf/2102.01757.pdf) | [[dataset]](http://www.openslr.org/100) | 760 + |
-| 22 | VoxPopuli | Multilingual | Misc | [[paper]](https://arxiv.org/pdf/2101.00390.pdf) | [[dataset]](https://github.com/facebookresearch/voxpopuli) | sup(1.8k)+unsup(400k)=400k + |
+| 22 | VoxPopuli | Multilingual | Misc | [[paper]](https://arxiv.org/pdf/2101.00390.pdf) | [[dataset]](https://github.com/facebookresearch/voxpopuli) | sup(1.8k)<br>unsup(400k) |
 | 23 | Libri-Light | English | Reading | [[paper]](https://arxiv.org/pdf/1912.07875.pdf) | [[dataset]](https://github.com/facebookresearch/libri-light/tree/main/data_preparation) | unsup(60k) |
-| 24 | Common Voice (Multilingual) | Multilingual | Recording | [[paper]](https://arxiv.org/pdf/1912.06670.pdf) | [[dataset]](https://commonvoice.mozilla.org/) | v9.0: sup(15k)+unsup(5k)=20k |
-| 25 | Common Voice (English)| English | Recording | [[paper]](https://arxiv.org/pdf/1912.06670.pdf) | [[dataset]](https://commonvoice.mozilla.org/en/datasets) | v9.0: sup(2200)+unsup(700)=2900+ |
+| 24 | Common Voice (Multilingual) | Multilingual | Recording | [[paper]](https://arxiv.org/pdf/1912.06670.pdf) | [[dataset]](https://commonvoice.mozilla.org/) | sup(15k)<br>unsup(5k) |
+| 25 | Common Voice (English)| English | Recording | [[paper]](https://arxiv.org/pdf/1912.06670.pdf) | [[dataset]](https://commonvoice.mozilla.org/en/datasets) | sup(2200)<br>unsup(700) |
 | 26 | JTubeSpeech | Japanese | Misc | [[paper]](https://arxiv.org/pdf/2112.09323.pdf) | [[dataset]](https://github.com/sarulab-speech/jtubespeech) | 1300 |
 | 27 | ai4bharat NPTEL2020 | English(Indian) | Lectures | - | [[dataset]](https://github.com/AI4Bharat/NPTEL2020-Indian-English-Speech-Dataset) | weaksup(15.7k) |
 | 28 | open_stt | Russian | Misc | - | [[dataset]](https://github.com/snakers4/open_stt) | 20k + |
@@ -73,7 +73,7 @@ Over **110** speech datasets are collected in this repository, and more than **7
 | 32 | MuST-C | Multilingual | Talks | [[paper]](https://aclanthology.org/N19-1202.pdf) | [[dataset]](https://ict.fbk.eu/must-c-release-v1-2/) | 6000 + |
 | 33 | M-AILABS | Multilingual | Reading | - | [[dataset]](https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/) | 1000 |
 | 34 | CMU Wilderness | Multilingual | Misc | [[paper]](http://www.cs.cmu.edu/~awb/papers/2019_Black_ICASSP.pdf) | [[dataset]](https://github.com/festvox/datasets-CMU_Wilderness) | unsup(14k) |
-| 35 | Gram_Vaani | Hindi | Recording | [[paper]](https://arxiv.org/pdf/2203.16973.pdf) [[code]](https://github.com/anish9208/gramvaani_hindi_asr) | [[dataset]](https://www.openslr.org/118/) | unsup(1000)+sup(100) |
+| 35 | Gram_Vaani | Hindi | Recording | [[paper]](https://arxiv.org/pdf/2203.16973.pdf) [[code]](https://github.com/anish9208/gramvaani_hindi_asr) | [[dataset]](https://www.openslr.org/118/) | sup(100)<br>unsup(1k) |
 | 36 | VoxLingua107 | Multilingual | Misc | [[paper]](https://arxiv.org/pdf/2011.12998.pdf) | [[dataset]](http://bark.phon.ioc.ee/voxlingua107/) | unsup(6600 +) |
 | 37 | Kazakh Corpus | Kazakh | Recording | [[paper]](https://arxiv.org/pdf/2009.10334.pdf) [[code]](https://github.com/IS2AI/ISSAI_SAIDA_Kazakh_ASR) | [[dataset]](https://www.openslr.org/102/) | 335 |
 | 38 | Voxforge | English | Recording | - | [[dataset]](http://www.voxforge.org/home/downloads) | 130 |
@@ -111,20 +111,21 @@ Over **110** speech datasets are collected in this repository, and more than **7
 | 70 | Aalto Finnish Parliament | Finnish | Parliament | [[paper]](https://arxiv.org/pdf/2203.14876.pdf) | [[dataset]](https://www.kielipankki.fi/corpora/fi-parliament-asr/) | 3100 + |
 | 71 | UserLibri | English | Reading | [[paper]](https://arxiv.org/pdf/2207.00706.pdf) | [[dataset]](https://www.kaggle.com/datasets/google/userlibri) | - |
 | 72 | Ukrainian Speech | Ukrainian | Misc | - | [[dataset]](https://github.com/egorsmkv/speech-recognition-uk#-datasets) | 1300+ |
-| 73 | UCLA-ASR-corpus | Multilingual | Misc | - | [[dataset]](https://github.com/Open-Speech-EkStep/ULCA-asr-dataset-corpus) | unsup(15k)+sup(9k) |
+| 73 | UCLA-ASR-corpus | Multilingual | Misc | - | [[dataset]](https://github.com/Open-Speech-EkStep/ULCA-asr-dataset-corpus) | unsup(15k)<br>sup(9k) |
 | 74 | ReazonSpeech | Japanese | Misc | [[paper]](https://research.reazon.jp/_static/reazonspeech_nlp2023.pdf) [[code]](https://github.com/reazon-research/ReazonSpeech) | [[dataset]](https://huggingface.co/datasets/reazon-research/reazonspeech) | 15k |
+| 75 | Bundestag | German | Debate | [[paper]](https://arxiv.org/pdf/2302.06008v1.pdf) | [[dataset]](https://opendata.iisys.de/datasets.html#bundestag) | sup(610)<br>unsup(1038) |
 
 
 #### b. datasets can be downloaded after application
 
-| **Index** | **Name** | **Language** | **Type/Domain** | **Paper Link** | **Data Link** | **Size (Hours)** |
-| :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **id** | **Name** | **Language** | **Type/Domain** | **Paper Link** | **Data Link** | **Size (Hours)** |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | Fisher | English | Conversational | [[paper]](http://www.lrec-conf.org/proceedings/lrec2004/pdf/767.pdf) | [[dataset]](https://catalog.ldc.upenn.edu/search) | 2000 |
-| 2 | WenetSpeech | Mandarin | Misc | [[paper]](https://arxiv.org/pdf/2110.03370.pdf) | [[dataset]](https://www.openslr.org/121) | sup(10k)+weaksup(2.4k)+unsup(10k)=22.4k |
+| 2 | WenetSpeech | Mandarin | Misc | [[paper]](https://arxiv.org/pdf/2110.03370.pdf) | [[dataset]](https://www.openslr.org/121) | sup(10k)<br>weaksup(2.4k)<br>unsup(10k) |
 | 3 | aishell-2 | Mandarin | Recording | [[paper]](https://arxiv.org/pdf/1808.10583.pdf) | [[dataset]](https://www.aishelltech.com/aishell_2) | 1000 |
 | 4 | aidatatang_1505zh | Mandarin | Recording | - | [[dataset]](https://www.datatang.com/opensource) | 1505 |
 | 5 | SLT 2021 CSRC | Mandarin | Misc | [[paper]](https://arxiv.org/pdf/2011.06724.pdf) | [[dataset]](https://www.data-baker.com/csrc_challenge.html) | 400 |
-| 6 | GigaSpeech | English | Misc | [[paper]](https://arxiv.org/pdf/2106.06909.pdf) | [[dataset]](https://github.com/SpeechColab/GigaSpeech) | sup(10k)+unsup(23k)=33k |
+| 6 | GigaSpeech | English | Misc | [[paper]](https://arxiv.org/pdf/2106.06909.pdf) | [[dataset]](https://github.com/SpeechColab/GigaSpeech) | sup(10k)<br>unsup(23k) |
 | 7 | SPGISpeech | English | Misc | [[paper]](https://arxiv.org/pdf/2104.02014.pdf) | [[dataset]](https://datasets.kensho.com/datasets/spgispeech) | 5000 |
 | 8 | AESRC 2020 | English (accented) | Misc | [[paper]](https://arxiv.org/pdf/2102.10233.pdf) | [[dataset]](https://www.datatang.com/INTERSPEECH2020) | 160 |
 | 9 | LaboroTVSpeech | Japanese | Misc | [[paper]](https://arxiv.org/pdf/2103.14736.pdf) | [[dataset]](https://laboro.ai/activity/column/engineer/eg-laboro-tv-corpus-jp/) | 2000 + |
@@ -148,14 +149,14 @@ Over **110** speech datasets are collected in this repository, and more than **7
 | 27 | QASR | Arabic | Dialects | [[paper]](https://arxiv.org/pdf/2106.13000.pdf) | [[dataset]](https://arabicspeech.org/qasr/) | 2000 + |
 | 28 | ADI (MGB-5) | Arabic | Dialects | [[paper]](https://swshon.github.io/pdf/ali_asru2019_mgb5.pdf) | [[dataset]](https://arabicspeech.org/mgb5/#adi17) | unsup (3000 +) |
 | 29 | MGB-2 | Arabic | TV | [[paper]](https://arxiv.org/pdf/1609.05625.pdf) | [[dataset]](http://www.mgb-challenge.org/MGB-2.html) | 1200 + |
-| 30 | 3MASSIV | Multilingual | Audio-Visual | [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gupta_3MASSIV_Multilingual_Multimodal_and_Multi-Aspect_Dataset_of_Social_Media_Short_CVPR_2022_paper.pdf) | [[dataset]](https://github.com/ShareChatAI/3MASSIV) | sup(310)+unsup(600) |
+| 30 | 3MASSIV | Multilingual | Audio-Visual | [[paper]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gupta_3MASSIV_Multilingual_Multimodal_and_Multi-Aspect_Dataset_of_Social_Media_Short_CVPR_2022_paper.pdf) | [[dataset]](https://github.com/ShareChatAI/3MASSIV) | sup(310)<br>unsup(600) |
 | 31 | MDCC | Cantonese | Misc | [[paper]](https://arxiv.org/pdf/2201.02419.pdf) | [[dataset]](https://github.com/HLTCHKUST/cantonese-asr) | 73 + |
-| 32 | Lahjoita Puhetta | Finnish | Misc | [[paper]](https://arxiv.org/pdf/2203.12906.pdf) | [[dataset]](https://github.com/aalto-speech/lahjoita-puhetta-resources) | sup(1600) + unsup(2000) |
+| 32 | Lahjoita Puhetta | Finnish | Misc | [[paper]](https://arxiv.org/pdf/2203.12906.pdf) | [[dataset]](https://github.com/aalto-speech/lahjoita-puhetta-resources) | sup(1600)<br>unsup(2000) |
 | 33 | SDS-200 | Swiss German | Dialects | [[paper]](https://arxiv.org/pdf/2205.09501.pdf) | [[dataset]](https://swissnlp.org/datasets/) | 200 |
 | 34 | Modality Corpus | Multilingual | Audio-Visual | [[paper]](https://link.springer.com/content/pdf/10.1007/s10844-016-0438-z.pdf) | [[dataset]](http://www.modality-corpus.org/) | 30 + |
 | 35 | Hindi-Tamil-English | Multilingual | Misc | - | [[dataset]](https://sites.google.com/view/indian-language-asrchallenge/home) | 690 |
 | 36 | English-Vietnamese Corpus | English, Vietnamese | Misc | [[paper]](https://arxiv.org/pdf/2208.04243.pdf) | [[dataset]](https://github.com/VinAIResearch/PhoST) | 500+ |
-| 37 | OLKAVS | Korean | Misc | [[paper]](https://arxiv.org/pdf/2301.06375.pdf) [[code]](https://github.com/IIP-Sogang/olkavs-avspeech) | [[dataset]](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=538) | 1150 |
+| 37 | OLKAVS | Korean | Audio-Visual | [[paper]](https://arxiv.org/pdf/2301.06375.pdf) [[code]](https://github.com/IIP-Sogang/olkavs-avspeech) | [[dataset]](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=538) | 1150 |
 
 
 ### 3. References
